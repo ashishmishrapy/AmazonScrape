@@ -54,7 +54,6 @@ npm run dev
 2. Start the frontend application
 ```bash
 cd client
-go to .env and change the API_URL to your backend URL
 npm run dev
 ```
 
