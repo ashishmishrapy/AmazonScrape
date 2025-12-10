@@ -160,7 +160,7 @@ const App = () => {
                   href=""
                   // filename={`history${Date.now()}.csv`}
                   className="underline text-blue-600">
-                    Export as csv
+                    Export as JSON
                   </a>
                 </button>
               </span>
