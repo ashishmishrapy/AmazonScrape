@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional cache
+.cache/
+dist/
+build/
+coverage/
+
+# PM2
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Local database files (if using sqlite / lowdb, etc)
+*.db
+*.sqlite
+*.sqlite3
+
+# VSCode settings
+.vscode/
+.idea/
+
+# Optional: uploads or temp files
+uploads/
+temp/
