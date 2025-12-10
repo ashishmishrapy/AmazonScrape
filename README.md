@@ -59,7 +59,6 @@ npm run dev
 
 ```bash
 cd client
-go to .env and change the API_URL to your backend URL
 npm run dev
 ```
 
