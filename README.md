@@ -49,8 +49,8 @@ npm install
 
 1. Start the backend server
 
+Make sure you have nodemon installed otherwise do ```npm i nodemon```
 ```bash
-Make sure you have nodemon installed otherwise do npx i nodemon
 cd server
 npm run dev
 ```
