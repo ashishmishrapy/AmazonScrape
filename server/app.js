@@ -48,7 +48,7 @@ app.post("/scrap", async (req, res) => {
       };
     });
 
-    console.log(data);
+    // console.log(data);
     
     await browser.close();
 

@@ -5,6 +5,7 @@ import ProductCard from "./components/ProductCard";
 import { useEffect } from "react";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import { saveAs } from "file-saver";
+const API_URL = import.meta.env.VITE_API_URL;
 
 
 const App = () => {
@@ -63,7 +64,7 @@ const App = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3001/scrap", {
+      const res = await axios.post(`${API_URL}/scrap`, {
         url,
       });
 
